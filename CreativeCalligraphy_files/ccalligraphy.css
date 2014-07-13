@@ -1,0 +1,212 @@
+
+
+body {
+    font-size: 15pt;
+    background: url(/creativeCalligraphy/sos.png) repeat 0 0;
+    font-family: 'Lato', serif;    
+    font-style: Garamond;
+    overflow-y:scroll;
+}
+
+div {
+
+    /* font-family: 'Nobile', Helvetica, Arial, sans-serif; */
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+img {
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+            transition: all .25s ease;
+}
+
+.gallery{
+    background-color: #95002B;
+    color: black;
+    width: 10%;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    display: table-cell;
+    /* border: 2px solid black; */
+}
+
+.button{
+    /* background: url(/creativeCalligraphy/sos.png) repeat 0 0; */
+    background-color: #95002B;
+    color: white;
+    width: 10%;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    display: table-cell;
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+}
+
+#middle_spacer{
+    width: 40px;
+}
+
+.button:hover{
+    background-color: #DFC184;
+    color: black;
+}
+
+#main_text{
+    text-align: justify;
+    padding-left: 20px;
+    width: 60%;
+}
+
+.text{
+    vertical-align: middle;
+    display: table-cell;    
+    
+}
+
+.spacer{
+    /* background-color: #C0FED5; */
+    color: black;
+    width: 1%;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    display: table-cell;
+}
+
+.expandable{
+    background-color: #DFC184;
+    color: black;
+    border-radius: 10px;
+    height: 0px;
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    display:block
+    overflow-y:scroll;
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+
+}
+
+table {
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.gallery_pic{
+    border-radius: 15px;
+    border: solid 10px #CCC;
+    -moz-box-shadow: 5px 5px 0px #999;
+    -webkit-box-shadow: 5px 5px 0px #999;
+    box-shadow: 5px 5px 0px #999;
+    margin: 20px;
+    max-width: 70%;
+    height: auto;
+    /* width: 70%; */
+    /* height: 20%; */
+
+}
+
+
+#gallery_window{
+    background: url(/creativeCalligraphy/sos.png) repeat 0 0;
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 15px;
+    padding: 5px;
+    /* margin: ; */
+    text-align: center;
+    /* display: table-cell; */
+    /* border: 2px solid black; */
+}
+
+.spaced_table{
+    border: solid 20px #FFFFFF;
+    padding: 5px;
+
+}
+
+.secondary{
+    border-radius: 15px;
+    background-color: #95002B;
+    color: white;
+}
+
+#gallery_console{
+    background-color: white;
+    color: black;
+    width: 40%;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+    /* display: table-cell; */
+    /* border: 2px solid black; */
+}
+
+
+#selector_container{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+    opacity: 0;
+}
+
+#footer{
+    font-family: 'Stalemate', serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30pt;
+    left:0px;
+    bottom:0px;
+    opacity: 0;
+    width:100%;
+    text-align: center;
+    /* text-shadow: 4px 4px 4px #aaa; */
+    -webkit-transition: all 1s ease;
+       -moz-transition: all 1s ease;
+            transition: all 1s ease;
+
+}
+
+#logo{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    display: block;
+    /* width: 50%; */
+    height: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+    -webkit-transition: all 2s ease;
+       -moz-transition: all 2s ease;
+            transition: all 2s ease;
+
+}
+
+#logo:hover{
+    opacity: 0.5;
+
+}   
