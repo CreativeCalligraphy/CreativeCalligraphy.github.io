@@ -1,5 +1,4 @@
 
-
 var images = new Array()
 function preload() {
     for (i = 0; i < preload.arguments.length; i++) {
@@ -29,16 +28,12 @@ window.onload = function() {
 
 
     setDivButtons();
-
-
 };
 
 var which = ""
 var current_pic = 1;
-pics = ["pic2.jpg",
-	"pic3.jpg",
-	"pic4.jpg",
-	"pic6.jpg"]
+pics = ["pic1.jpg",
+	"pic2.jpg"]
 
 
 function setDivButtons(){
@@ -90,7 +85,7 @@ function nextClick(){
 	current_pic = 0;
 
     var pic = document.getElementById("gallery_pic");
-    pic.src = "creativeCalligraphy/pics/"+pics[current_pic];
+    pic.src = pics[current_pic];
     var gal = document.getElementById("expandable_gallery");
     gal.style.height = getHeight(element);
     
@@ -99,13 +94,12 @@ function nextClick(){
 
 function lastClick(){
     
-
     current_pic --;
     if (current_pic < 0)
 	current_pic = pics.length-1;
 
     var pic = document.getElementById("gallery_pic");
-    pic.src = "creativeCalligraphy/pics/"+pics[current_pic];
+    pic.src = pics[current_pic];
     var gal = document.getElementById("expandable_gallery");
     gal.style.height = getHeight(element);
     

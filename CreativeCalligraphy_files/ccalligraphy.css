@@ -5,7 +5,7 @@ body {
     background: url(/creativeCalligraphy/sos.png) repeat 0 0;
     font-family: 'Lato', serif;    
     font-style: Garamond;
-    overflow-y:scroll;
+
 }
 
 div {
@@ -35,7 +35,8 @@ img {
 }
 
 .button{
-    /* background: url(/creativeCalligraphy/sos.png) repeat 0 0; */
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
     background-color: #95002B;
     color: white;
     width: 10%;
@@ -47,7 +48,6 @@ img {
     -webkit-user-select: none; /* Chrome/Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+ */
-
 }
 
 #middle_spacer{
@@ -55,6 +55,13 @@ img {
 }
 
 .button:hover{
+    background: -webkit-gradient(linear, 
+				 left top, 
+				 left bottom, 
+				 color-stop(0%, white), 
+				 color-stop(5%, white), 
+				 color-stop(100%, #DFC184)); 
+    background: -moz-linear-gradient(top, white 0%, white 55%, #DFC184 130%); 
     background-color: #DFC184;
     color: black;
 }
@@ -82,8 +89,32 @@ img {
     display: table-cell;
 }
 
+.faded{
+    /* gradients */
+    background: -webkit-gradient(linear, 
+				 left bottom, 
+				 left top, 
+				 color-stop(0%, white), 
+				 color-stop(15%, white), 
+				 color-stop(100%, #DFC184)); 
+				 /* color-stop(100%, #D7E9F5));  */
+    /* background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%);  */
+    background: -moz-linear-gradient(top, white 0%, white 55%, #DFC184 130%); 
+}
+
 .expandable{
-    background-color: #DFC184;
+    /* outer shadows  (note the rgba is red, green, blue, alpha) */
+    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+    -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+    /* rounded corners */
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
+
+
+
+    /* background-color: #DFC184; */
     color: black;
     border-radius: 10px;
     height: 0px;
@@ -102,7 +133,7 @@ img {
 }
 
 table {
-    color: white;
+    color: black;
     text-align: center;
     font-style: italic;
 
@@ -124,11 +155,11 @@ table {
 
 
 #gallery_window{
-    background: url(/creativeCalligraphy/sos.png) repeat 0 0;
-    background-color: white;
+    /* background: url(/creativeCalligraphy/sos.png) repeat 0 0; */
+    /* background-color: white; */
     color: black;
     width: 100%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     padding: 5px;
     /* margin: ; */
     text-align: center;
@@ -139,13 +170,14 @@ table {
 .spaced_table{
     border: solid 20px #FFFFFF;
     padding: 5px;
-
+    color: black;
 }
 
 .secondary{
     border-radius: 15px;
-    background-color: #95002B;
-    color: white;
+    /* background-color: #95002B; */
+    /* color: white; */
+    color: black;
 }
 
 #gallery_console{
