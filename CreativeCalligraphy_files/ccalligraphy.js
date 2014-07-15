@@ -18,20 +18,22 @@ window.onload = function() {
 
     preload( "logo.png" );
 
-    document.getElementById('footer').style.opacity = "1";
+    // setTimeout(function() {
+	document.getElementById('footer').style.opacity = "1";
+    // }, 500);
 
     setTimeout(function() {
-	document.getElementById('logo').style.height = "40%";
-    }, 1000);
+    	document.getElementById('logo').style.height = "40%";
+    }, 500);
 
     setTimeout(function() {
-	document.getElementById('logo').style.height = "40%";
-	document.getElementById('logo').style.opacity = "1";
+    	document.getElementById('logo').style.height = "40%";
+    	document.getElementById('logo').style.opacity = "1";
     }, 2500);
 
     setTimeout(function() {
-	document.getElementById('selector_container').style.opacity = "1";
-    }, 4000);
+    	document.getElementById('selector_container').style.opacity = "1";
+    }, 2500);
 
 
     setDivButtons();
