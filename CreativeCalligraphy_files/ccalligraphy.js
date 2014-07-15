@@ -18,13 +18,11 @@ window.onload = function() {
 
     preload( "logo.png" );
 
-    // setTimeout(function() {
-	document.getElementById('footer').style.opacity = "1";
-    // }, 500);
+    document.getElementById('footer').style.opacity = "1";
 
     setTimeout(function() {
     	document.getElementById('logo').style.height = "40%";
-    }, 500);
+    }, 1000);
 
     setTimeout(function() {
     	document.getElementById('logo').style.height = "40%";
