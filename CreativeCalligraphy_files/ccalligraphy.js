@@ -16,12 +16,8 @@ pics = ["pic1.jpg",
 
 window.onload = function() {
 
-    // preload( "creativeCalligraphy/logo.png" );
     preload( "logo.png" );
-    for (i = 0; i < preload.arguments.length; i++) {
-	preload(pics[i]);
-    }
-    
+
     document.getElementById('footer').style.opacity = "1";
 
     setTimeout(function() {
