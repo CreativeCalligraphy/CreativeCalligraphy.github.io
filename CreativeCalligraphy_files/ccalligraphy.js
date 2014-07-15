@@ -7,9 +7,20 @@ function preload() {
     }
 }
 
+
+var which = ""
+var current_pic = 1;
+pics = ["pic1.jpg",
+	"pic2.jpg"]
+
+
 window.onload = function() {
 
-    preload( "creativeCalligraphy/logo.png" );
+    // preload( "creativeCalligraphy/logo.png" );
+    preload( "logo.png" );
+    for (i = 0; i < preload.arguments.length; i++) {
+	preload(pics[i]);
+    }
     
     document.getElementById('footer').style.opacity = "1";
 
@@ -29,12 +40,6 @@ window.onload = function() {
 
     setDivButtons();
 };
-
-var which = ""
-var current_pic = 1;
-pics = ["pic1.jpg",
-	"pic2.jpg"]
-
 
 function setDivButtons(){
     var about = document.getElementById('about');
