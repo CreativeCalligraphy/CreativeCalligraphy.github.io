@@ -146,7 +146,7 @@ table {
     -webkit-box-shadow: 5px 5px 0px #999;
     box-shadow: 5px 5px 0px #999;
     margin: 20px;
-    max-width: 70%;
+    width: 70%;
     height: auto;
     /* width: 70%; */
     /* height: 20%; */

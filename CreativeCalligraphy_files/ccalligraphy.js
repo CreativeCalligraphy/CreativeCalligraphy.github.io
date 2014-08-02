@@ -34,7 +34,7 @@ window.onload = function() {
 
     setTimeout(function() {
     	document.getElementById('selector_container').style.opacity = "1";
-    }, 2500);
+    }, 3000);
 
 
     setDivButtons();
