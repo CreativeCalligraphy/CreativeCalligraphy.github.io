@@ -10,12 +10,12 @@ function preload() {
 
 var which = ""
 var current_pic = 1;
-pics = ["pic1.jpg",
-	"IMG_1518.jpg",
-	"IMG_1596.jpg",
-	"IMG_4292.JPG",
-	"unnamed.jpg",
-	"pic2.jpg",
+pics = [ "baby.jpg",
+	 "brown.jpg",
+	 "placecards.jpg",
+	 "love.jpg",
+	 "shepherd.jpg",
+	 "sloan.jpg",
        ]
 
 
