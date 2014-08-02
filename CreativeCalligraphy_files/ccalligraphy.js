@@ -14,7 +14,9 @@ pics = ["pic1.jpg",
 	"IMG_1518.jpg",
 	"IMG_1596.jpg",
 	"IMG_4292.JPG",
-	"pic2.jpg"]
+	"unnamed.jpg",
+	"pic2.jpg",
+       ]
 
 
 window.onload = function() {
@@ -92,7 +94,6 @@ function nextClick(){
     pic.src = pics[current_pic];
     var gal = document.getElementById("expandable_gallery");
     gal.style.height = getHeight(element);
-    
     
 }
 
